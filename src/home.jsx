@@ -6,7 +6,10 @@ class Home extends Component {
     return (
       <div>
         <h1>Call To Action</h1>
-        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/contactme">Contact me</Link>
+
+        <hr/>
+
         <h1>About</h1>
         <p>This is the first draft of my home page</p>
         <a href="http://github.com/r1ri">Github</a>

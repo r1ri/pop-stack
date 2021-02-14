@@ -1,4 +1,5 @@
 import { Route, Link, Switch } from "react-router-dom";
+import ContactMe from "./components/contactMe";
 import NavBar from "./components/navBar";
 import NotFound from "./components/notFound";
 import Portfolio from "./components/portfolio";
@@ -9,7 +10,8 @@ function App() {
     <div>
       <NavBar />
       <Switch>
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/contactme" component={ContactMe} />
+        <Route path="/portfolio" component={Portfolio} />
         <Route exact path="/" component={Home} />
         <Route path="/" component={NotFound} />
       </Switch>

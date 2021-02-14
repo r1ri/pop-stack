@@ -10,7 +10,7 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto">
             <il className="nav-item">
-              <Link className="nav-link">1</Link>
+              <Link to="/portfolio" className="nav-link">Portfolio</Link>
             </il>
             <il className="nav-item">
               <Link className="nav-link">2</Link>
