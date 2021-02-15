@@ -1,10 +1,12 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background-color: lightgray;
+   color: #555555;
+   margin: 0;
 }
 
 code {
@@ -12,7 +14,74 @@ code {
     monospace;
 }
 
-body {
-  background-color:black;
-  color:red;
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.container a{
+  color: coral;
+}
+
+.box-1{
+  background-color: #333;
+  color: #AAA;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin: 0.5em;
+  border: 5px #AAA solid;
+  border-radius: 1em;
+}
+
+.box-1 h1{
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.box-2 {
+  border:2px #AAA dotted;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin: 0.5em;
+}
+
+#navbar {
+  background-color: #333;
+  padding: 0.5em;
+}
+
+#navbar ul{
+  list-style: none;
+  display: inline;
+  padding:0;
+  margin-left:0.3em;
+}
+
+#navbar li{
+  display: inline;
+  margin:0.3em;
+  padding:0.1em;
+  border:0.01em #333 solid;
+  border-radius: 5px;
+}
+
+#navbar li:hover {
+  border:0.01em coral solid;
+  border-radius: 5px;
+}
+
+#navbar li:first-child{
+  border:1px coral solid;
+  border-radius: 5px;
+  background-color: coral;
+}
+
+#navbar li:first-child a{
+  color:#333
+}
+
+#navbar a{
+  color:coral;
+  text-decoration: none;
 }
