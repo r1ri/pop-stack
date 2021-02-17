@@ -1,0 +1,90 @@
+#home-page a{
+  color: coral;
+}
+
+#banner{
+  background-color: #333;
+  color: #AAA;
+  height: 60em;
+  position: relative;
+
+  background-image: url("../bgbanner.png");
+  min-height: 100%;
+  position: relative;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:  fixed;
+}
+
+@media all and (min-width: 1080px) {
+  #banner{
+    background-position-y: -16em;
+  }
+}
+
+#banner h1{
+  color:coral;
+  width: 15em;
+  height: 10%;
+  font-size: 3em;
+  position: absolute;
+  top:50%;
+  left:20%
+}
+
+#banner-call {
+  margin: auto;
+  color:coral;
+  align-self: end;
+  font-size: 3em;
+}
+
+#banner button{
+  background-color:coral;
+  border:0.2em coral solid;
+  border-radius: 0.7em;
+  outline:none;
+  position: absolute;
+  top:50%;
+  left:50%
+}
+
+#banner button p{
+  line-height: 0.2em;
+  font-size: 2em;
+  color:#333;
+}
+
+#banner button:hover{
+  background-color: #333;
+  border:0.2em coral solid;
+  cursor: pointer;
+}
+
+#banner button:hover p{
+  color:coral;
+}
+
+#banner button:active{
+  border-color: red;
+  outline:none;
+}
+#banner button:active p {
+  color:red;
+}
+
+#banner-link{
+  align-self:start;
+}
+
+.spacer{
+  height:500px
+}
+
+.about {
+  border:2px #AAA dotted;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin: 0.5em;
+}
