@@ -1,0 +1,45 @@
+#navbar {
+  padding: 0.5em;
+  position: sticky;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+}
+#navbar div{
+  z-index: 2;
+}
+
+#navbar ul{
+  list-style: none;
+  display: inline;
+  padding:0;
+  margin-left:0.3em;
+}
+
+#navbar li{
+  display: inline;
+  margin:0.3em;
+  padding:0.1em;
+  opacity: 60%;
+}
+
+#navbar li:hover {
+  opacity: 100%;
+}
+
+#navbar li:first-child{
+  border:1px coral solid;
+  border-radius: 5px;
+  background-color: coral;
+  opacity: 100%;
+}
+
+#navbar li:first-child a{
+  color:#333
+}
+
+#navbar a{
+  color:coral;
+  text-decoration: none;
+}

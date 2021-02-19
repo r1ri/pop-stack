@@ -1,17 +1,18 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import './navbar.css'
 
-class NavBar extends Component {
+class Navbar extends Component {
   render() {
     return (
       <nav id="navbar">
-        <div className="">
-          <ul className="">
-            <li className="">
-              <Link to="">Pop-Stack</Link>
+        <div>
+          <ul>
+            <li>
+              <NavLink to="/">Pop-Stack</NavLink>
             </li>
-            <li className="">
-              <Link to="/portfolio">Portfolio</Link>
+            <li>
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
           </ul>
         </div>
@@ -20,4 +21,4 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+export default Navbar;
