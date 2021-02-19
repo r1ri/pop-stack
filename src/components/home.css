@@ -6,7 +6,10 @@
   background-color: #333;
   color: #AAA;
   height: 60em;
-  position: relative;
+
+  display:grid;
+  align-items: center;
+  justify-items: center;
 
   background-image: url("../bgbanner.png");
   min-height: 100%;
@@ -17,65 +20,29 @@
   background-attachment:  fixed;
 }
 
-@media all and (min-width: 1080px) {
-  #banner{
-    background-position-y: -16em;
-  }
-}
-
 #banner h1{
-  color:coral;
-  width: 15em;
-  height: 10%;
-  font-size: 3em;
-  position: absolute;
-  top:50%;
-  left:20%
-}
-
-#banner-call {
-  margin: auto;
-  color:coral;
+  color: coral;
   align-self: end;
-  font-size: 3em;
 }
 
-#banner button{
-  background-color:coral;
-  border:0.2em coral solid;
-  border-radius: 0.7em;
-  outline:none;
-  position: absolute;
-  top:50%;
-  left:50%
+#banner-link button p{
+  font-size: 20;
 }
 
-#banner button p{
-  line-height: 0.2em;
-  font-size: 2em;
-  color:#333;
-}
-
-#banner button:hover{
-  background-color: #333;
-  border:0.2em coral solid;
-  cursor: pointer;
+#banner-link, #banner-link button{
+  align-self: start;
+  background-color: coral;
+  border: 2px coral solid;
+  outline: none;
+  border-radius: 10px;
 }
 
 #banner button:hover p{
-  color:coral;
+  color:#fff;
 }
 
-#banner button:active{
-  border-color: red;
-  outline:none;
-}
-#banner button:active p {
-  color:red;
-}
-
-#banner-link{
-  align-self:start;
+#banner-link:active{
+  border-color: white;
 }
 
 .spacer{
