@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "./contactMe.css";
 
 class ContactMe extends Component {
   state = {
@@ -15,7 +16,7 @@ class ContactMe extends Component {
     setTimeout(() => {
       this.setState({
         buttonText: (
-          <p style={{ marginLeft: "5rem", marginRight: "5rem" }}>copied</p>
+          <p style={{ marginLeft: "2rem", marginRight: "2rem" }}>copied</p>
         ),
       });
     }, 150);
@@ -29,15 +30,15 @@ class ContactMe extends Component {
 
   render() {
     return (
-      <div id="banner">
-        <h1>My Email is</h1>
-        <button onClick={this.copyText}>{this.state.buttonText}</button>
-        <div hidden>
-          <textarea
-            ref={(textarea) => (this.textArea = textarea)}
-            value="liam@pop-stack.org"
-          />
+      <div>
+        <div className="centeredItems">
+          <h1>My Email is</h1>
+          <button onClick={this.copyText}>{this.state.buttonText}</button>
         </div>
+        <textarea
+          ref={(textarea) => (this.textArea = textarea)}
+          value="liam@pop-stack.org"
+        />
       </div>
     );
   }

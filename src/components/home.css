@@ -26,7 +26,10 @@
 }
 
 #banner-link button p{
-  font-size: 20;
+  font-size: 1.6em;
+  color:#333;
+  margin: 0.5em;
+  font-weight: 600;
 }
 
 #banner-link, #banner-link button{
