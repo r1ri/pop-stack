@@ -6,16 +6,8 @@ class Navbar extends Component {
   render() {
     return (
       <nav id="navbar">
-        <div>
-          <ul>
-            <li>
-              <NavLink to="/">Pop-Stack</NavLink>
-            </li>
-            <li>
-              <NavLink to="/portfolio">Portfolio</NavLink>
-            </li>
-          </ul>
-        </div>
+        <NavLink id="logo" to="/">Pop-Stack</NavLink>
+        <NavLink to="/portfolio">Portfolio</NavLink>
       </nav>
     );
   }

@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div id="home-page">
         <div id="banner">
-          <h1 id="">look it do the thing</h1>
+          <h1 id="">Need a cheap website?</h1>
           <Link id="banner-link"to="/contactme">
             <button>
               <p>Contact me</p>
