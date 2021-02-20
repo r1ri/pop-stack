@@ -9,11 +9,17 @@ class Portfolio extends Component {
         <h1>Portfolio</h1>
         <div id="porfolio-container">
           <div className="portfolio-item-card">
-            <p>
-              This site!
-            </p>
-            <Link to="/">pop-stack.org</Link>
-            <a href="http://github.com/r1ri/website">Github</a>
+            <p>This site!</p>
+            <Link className="live" to="/">
+              pop-stack.org
+            </Link>
+            <a
+              className="repo"
+              href="http://github.com/r1ri/website"
+              target="_blanck"
+            >
+              Github
+            </a>
           </div>
         </div>
       </div>
