@@ -18,7 +18,7 @@
 }
 
 #navbar a{
-  color:#cc6540;
+  color: hsla(16, 100%, 66%, 0.5);
   text-decoration: none;
   margin: 1em;
 }
