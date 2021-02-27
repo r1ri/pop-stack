@@ -15,7 +15,7 @@ class Home extends Component {
           </Link>
         </div>
         <div className="about">
-          <h1>About</h1>
+          <h2>About</h2>
           <p>
             Hi, my name is Liam, I've created this site as a means to find projects to build out my 
             portfolio. If your looking for a website, you don't need much in terms of complexity, and you
