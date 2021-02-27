@@ -18,6 +18,12 @@
   background-attachment:  fixed;
 }
 
+@media screen and (max-width: 768px) {
+  #banner {
+    background-attachment: scroll;
+  }
+}
+
 #banner h1{
   color: coral;
   align-self: center;
