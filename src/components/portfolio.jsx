@@ -7,12 +7,10 @@ class Portfolio extends Component {
     return (
       <div>
         <h1>Portfolio</h1>
-        <div id="porfolio-container">
+        <div id="portfolio-container">
           <div className="portfolio-item-card">
+            <Link className="link" to="/home" />
             <p>This site!</p>
-            <Link className="live" to="/">
-              pop-stack.org
-            </Link>
             <a
               className="repo"
               href="http://github.com/r1ri/website"
