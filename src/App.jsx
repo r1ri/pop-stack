@@ -1,4 +1,4 @@
-import { Route, Link, Switch } from "react-router-dom";
+import { Route, NavLink, Switch, Redirect } from "react-router-dom";
 import React from 'react';
 import ContactMe from "./components/contactMe";
 import Navbar from "./components/navBar";
@@ -13,8 +13,10 @@ function App() {
       <Switch>
         <Route path="/contactme" component={ContactMe} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route exact path="/" component={Home} />
-        <Route path="/" component={NotFound} />
+        <Route path="/notfound" component={NotFound} />
+        <Route path="/home" exact component={Home} />
+        <Redirect exact from="/" to="/home" />
+        <Redirect  from="/" to="/notfound" />
       </Switch>
     </React.Fragment>
   );
