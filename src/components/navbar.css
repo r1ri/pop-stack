@@ -6,6 +6,7 @@
   width:100%;
   z-index:1;
   background-color: #333;
+  box-shadow: 0 0 10px hsla(0, 100%,0%,50%);
 }
 
 #navbar ul{
@@ -27,9 +28,20 @@
   color:coral;
 }
 
-#logo{
+.logo{
   padding:0.4em;
-  border: 0.1em coral solid;
+  border: 1px hsla(16, 100%, 66%, 0.5) solid;
   border-radius: 5px;
 }
 
+.logo:hover, .logo:active{
+  border: 1px coral solid;
+}
+
+#navbar .active{
+  color: coral;
+}
+
+#navbar .active:first-child{
+  border-color: coral;
+}
