@@ -64,5 +64,5 @@
   margin-right: auto;
   border:4px dotted darkgrey;
   margin-top: 3rem;
-  width: 65ch;
+  max-width: 65ch;
 }
