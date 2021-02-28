@@ -6,7 +6,7 @@ const PageFooter = () => {
     <React.Fragment>
       <div className="spacer" />
       <div className="footer">
-        <a className="footer-element" href="http://github.com/r1ri">Github</a>
+        <a className="footer-element" href="http://github.com/r1ri"  target="_blank">Github</a>
       </div>
     </React.Fragment>
   );

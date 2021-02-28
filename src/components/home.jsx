@@ -32,7 +32,7 @@ class Home extends Component {
           <p>So I droped out.</p>
           <p>But ever since I did, I found that I actually enjoyed it.</p>
           <p>
-            No outdated languages, or irelevent studies. There are hundreds if
+            No outdated languages, or irrelevant studies. There are hundreds if
             not thousands of people trying to teach people how to code, and it's
             all feels so much more real!
           </p>

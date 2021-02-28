@@ -64,9 +64,5 @@
   margin-right: auto;
   border:4px dotted darkgrey;
   margin-top: 3rem;
-  width: 80%;
-}
-
-.about p {
-  max-width: 70ch;
+  width: 65ch;
 }
