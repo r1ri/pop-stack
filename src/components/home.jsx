@@ -45,7 +45,6 @@ class Home extends Component {
           <p>You need a website?</p>
           <Link to="/contactme">Contact Me</Link>
         </div>
-        <div className="spacer"></div>
       </div>
     );
   }

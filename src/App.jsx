@@ -5,6 +5,7 @@ import Navbar from "./components/navBar";
 import NotFound from "./components/notFound";
 import Portfolio from "./components/portfolio";
 import Home from "./components/home";
+import PageFooter from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Redirect exact from="/" to="/home" />
         <Redirect  from="/" to="/notfound" />
       </Switch>
+      <PageFooter />
     </React.Fragment>
   );
 }
