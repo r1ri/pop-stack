@@ -10,8 +10,8 @@ textarea{
 
 button{
   align-self: start;
-  background-color: coral;
-  border: 2px coral solid;
+  background-color: var(--primary-color);
+  border: 2px var(--primary-color) solid;
   outline: none;
   border-radius: 10px;
 }

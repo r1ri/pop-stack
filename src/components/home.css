@@ -1,16 +1,18 @@
 #home-page a{
-  color: coral;
+  color: var(--primary-color);
 }
 
 #banner{
-  background-color: #333;
-  color: #AAA;
-  height: 100vh;
-  display: flex;
-  box-shadow: 0 0 10px hsla(0, 0%, 0%, 50%);
-
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+
+#banner{
+  background-color: var(--secondary-color);
+  color: #AAA;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 50%);
 
   background-image: url("../bgbanner.png");
   background-size:cover;
@@ -26,22 +28,22 @@
 }
 
 #banner h1{
-  color: coral;
+  color: var(--primary-color);
   align-self: center;
   text-shadow:0px 0px 30px hsla(30, 100%, 50%, 80%);
 }
 
 #banner-link button p{
   font-size: 1.6em;
-  color:#333;
+  color:var(--secondary-color);
   margin: 0.5em;
   font-weight: 600;
 }
 
 #banner-link, #banner-link button{
   align-self: center;
-  background-color: coral;
-  border: 2px coral solid;
+  background-color: var(--primary-color);
+  border: 2px var(--primary-color) solid;
   outline: none;
   border-radius: 10px;
   box-shadow:0px 0px 20px hsla(30, 100%, 50%, 30%);

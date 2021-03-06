@@ -15,10 +15,10 @@ h1 {
   height: 400px;
   background-image: url("../screen.jpg");
   background-size: cover;
-  background-color: #333;
+  background-color: var(--secondary-color);
   justify-self: center;
   position: relative;
-  border: 5px solid coral;
+  border: 5px solid var(--primary-color);
   border-radius: 20px;
   box-shadow: 0 0 15px hsla(0, 0%, 0%, 55%);
   box-sizing: border-box;
@@ -34,7 +34,7 @@ h1 {
   color: #222;
   font-size:1.2rem;
   position: absolute;
-  background-color: coral;
+  background-color: var(--primary-color);
   text-align: center;
   padding: 0.6rem;
   border-radius: 10px;
@@ -50,8 +50,8 @@ h1 {
 .repo {
   position: absolute;
   text-align: center;
-  background-color: #333;
-  color: coral;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
   padding-bottom: 20px;
   padding-top: 10px;
