@@ -1,5 +1,4 @@
 import { Component } from "react";
-import "./contactMe.css";
 
 class ContactMe extends Component {
   state = {
