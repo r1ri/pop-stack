@@ -43,7 +43,9 @@ class Home extends Component {
           </p>
           <p>But one last thing.</p>
           <p>You need a website?</p>
-          <Link to="/contactme">Contact Me</Link>
+          <Link to="/contactme" className="anchor--skin">
+            Contact Me
+          </Link>
         </div>
       </div>
     );

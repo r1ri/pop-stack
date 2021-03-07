@@ -1,0 +1,41 @@
+.navbar {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar__spacer {
+  height: 2.5rem;
+  background-color: red;
+}
+
+.navbar__list {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar__listItem {
+  display: inline;
+}
+
+.navbar__logo {
+  margin: 2rem;
+}
+
+.navbar__anchor {
+  color: hsla(16, 100%, 66%, 50%);
+  display: inline;
+  text-decoration: none;
+}
+
+.navbar__anchor:hover {
+  color: var(--primary-color);
+}
+
+.navbar__anchor--active {
+  color: var(--primary-color);
+}
