@@ -1,0 +1,7 @@
+.contactMe__copy-area {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}

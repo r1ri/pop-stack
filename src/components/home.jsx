@@ -5,17 +5,17 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-      <div id="home-page">
-        <div id="banner">
-          <h1 id="">Need a website?</h1>
-          <Link id="banner-link" to="/contactme">
-            <button>
+      <div className="home-page">
+        <div className="banner">
+          <h1 className="text--skin">Need a website?</h1>
+          <Link to="/contactme">
+            <button className="btn btn--primary">
               <p>Contact me</p>
             </button>
           </Link>
         </div>
         <div className="about">
-          <h2>About Me</h2>
+          <h2 className="about__header">About Me</h2>
           <p>
             I started messing around with code when I was about eleven, but I
             woulden't say that's when I got&nbsp;into coding.
@@ -43,7 +43,7 @@ class Home extends Component {
           </p>
           <p>But one last thing.</p>
           <p>You need a website?</p>
-          <Link to="/contactme" className="anchor--skin">
+          <Link to="/contactme" className="text--skin">
             Contact Me
           </Link>
         </div>

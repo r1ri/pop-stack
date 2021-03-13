@@ -1,4 +1,5 @@
 import { Component } from "react";
+import '../components/contactMe.css'
 
 class ContactMe extends Component {
   state = {
@@ -29,12 +30,11 @@ class ContactMe extends Component {
 
   render() {
     return (
-      <div>
-        <div className="centeredItems">
+      <div className="container">
           <h1>My Email is</h1>
-          <button onClick={this.copyText}>{this.state.buttonText}</button>
-        </div>
+          <button className="btn btn--primary" onClick={this.copyText}>{this.state.buttonText}</button>
         <textarea
+          className="contactMe__copy-area"
           ref={(textarea) => (this.textArea = textarea)}
           value="liam@pop-stack.org"
         />

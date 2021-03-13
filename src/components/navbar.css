@@ -5,11 +5,12 @@
   position: fixed;
   top: 0;
   width: 100%;
+
+  background-color: var(--primary-color)
 }
 
 .navbar__spacer {
   height: 2.5rem;
-  background-color: red;
 }
 
 .navbar__list {
@@ -33,9 +34,9 @@
 }
 
 .navbar__anchor:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .navbar__anchor--active {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }

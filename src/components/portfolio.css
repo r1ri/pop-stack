@@ -1,0 +1,32 @@
+.portfolio__header {
+  line-height: 0;
+  margin: 2rem;
+}
+
+.portfolio__container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.portfolio__card {
+  width: 225px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__card--pop-stack {
+  background-color: var(--secondary-color);
+}
+
+.portfolio__card__hero {
+    /* background-color: var(--primary-color); */
+    background-image: url("../screen.jpg");
+    background-size: cover;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+}

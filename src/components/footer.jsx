@@ -1,13 +1,13 @@
 import React from "react";
-import "./pagefooter.css";
+import "./footer.css";
 
 const PageFooter = () => {
   return (
     <React.Fragment>
-      <div className="spacer" />
+      <div className="footer__spacer" />
       <div className="footer">
         <a
-          className="anchor--skin"
+          className="text--skin"
           href="http://github.com/r1ri"
           target="_blank"
         >
