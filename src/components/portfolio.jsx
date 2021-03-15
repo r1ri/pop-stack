@@ -8,17 +8,35 @@ class Portfolio extends Component {
       <div>
         <h1 className="portfolio__header">Portfolio</h1>
         <div className="portfolio__container">
-          <div className="portfolio__card portfolio__card--pop-stack">
-            <div className="portfolio__card__hero">
-              <Link className="link" to="/home" />
-              <span className="badge badge--secondary">This site!</span>
+          <div
+            className="
+            portfolio__card
+            portfolio__card--pop-stack
+            shadow"
+          >
+            <div className="portfolio__card__hero shadow--light">
+              <span
+                className="
+                badge
+                badge--secondary
+                portfolio__card__title
+                shadow--light"
+              >
+                This site!
+              </span>
               <a
-                className="portfolio-card__repo badge text--skin"
+                className="
+                portfolio__card__repo
+                badge
+                text--skin
+                shadow--light
+                "
                 href="http://github.com/r1ri/website"
                 target="_blanck"
               >
                 Github
               </a>
+              <Link className="portfolio__card__link" to="/home" />
             </div>
           </div>
         </div>

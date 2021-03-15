@@ -9,6 +9,8 @@ body {
   background-color: lightgray;
   color: #555;
 
+  font-size: 1.1rem;
+
   margin: 0;
   padding: 0;
   width: 100%;
@@ -24,7 +26,9 @@ code {
 
 :root {
   --primary-color: #333;
-  --secondary-color: coral;
+  --secondary-color: hsla(40, 73%, 49%, 1);
+  --secondary-color--faded: hsla(40, 73%, 49%, .5);
+  --navbar-height: 2.5rem;
   --footer-height: 5rem;
 }
 
@@ -35,7 +39,7 @@ code {
 
   font-size: 1.2rem;
   line-height: 0;
-  padding: 0.4rem;
+  padding: 0.4rem 1.4rem;
 
   cursor: pointer;
 }
@@ -59,11 +63,32 @@ code {
 }
 
 .badge {
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    padding: 0.2rem
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  padding: 0.2rem 0.6rem;
 }
 
 .badge--secondary {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.shadow {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 40%);
+}
+
+.shadow--light {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 20%);
+}
+
+.shadow--hard {
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 70%);
+}
+
+.glow__box--secondary {
+  box-shadow: 0 0 10px var(--secondary-color--faded);
+}
+
+.glow__text--secondary {
+  text-shadow: 0 0 10px var(--secondary-color--faded);
 }

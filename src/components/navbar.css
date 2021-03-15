@@ -1,5 +1,5 @@
 .navbar {
-  height: 2.5rem;
+  height: var(--navbar-height);
   display: flex;
   align-items: center;
   position: fixed;
@@ -10,7 +10,7 @@
 }
 
 .navbar__spacer {
-  height: 2.5rem;
+  height: var(--navbar-height);
 }
 
 .navbar__list {
@@ -28,7 +28,7 @@
 }
 
 .navbar__anchor {
-  color: hsla(16, 100%, 66%, 50%);
+  color: var(--secondary-color--faded);
   display: inline;
   text-decoration: none;
 }

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <div className="navbar__spacer" />
-      <nav className="navbar">
+      <nav className="navbar shadow">
         <span>
           <NavLink className="navbar__logo navbar__anchor--active" to="/home">
             Pop-Stack

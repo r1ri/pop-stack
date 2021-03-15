@@ -6,10 +6,10 @@ class Home extends Component {
   render() {
     return (
       <div className="home-page">
-        <div className="banner">
-          <h1 className="text--skin">Need a website?</h1>
+        <div className="banner shadow">
+          <h1 className="text--skin glow__text--secondary">Need a website?</h1>
           <Link to="/contactme">
-            <button className="btn btn--primary">
+            <button className="btn btn--primary glow__box--secondary">
               <p>Contact me</p>
             </button>
           </Link>
@@ -43,7 +43,7 @@ class Home extends Component {
           </p>
           <p>But one last thing.</p>
           <p>You need a website?</p>
-          <Link to="/contactme" className="text--skin">
+          <Link to="/contactme" className="text--skin badge badge--secondary">
             Contact Me
           </Link>
         </div>
