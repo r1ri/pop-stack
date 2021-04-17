@@ -1,26 +1,10 @@
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 2.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 2.5rem);
 
-    background-image: url("../bgbanner.png");
-    background-size: cover;
-}
-
-.about {
-    border: 2px dashed var(--primary-color);
-    margin: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: .5rem;
-    max-width: 70ch;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about__header {
-    line-height: 0;
-    margin-bottom: 2rem;
+  background-image: url("../bgbanner.png");
+  background-size: cover;
 }

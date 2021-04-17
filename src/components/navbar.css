@@ -8,6 +8,12 @@
 
   background-color: var(--primary-color)
 }
+.navbar__content {
+  width: 1320px;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .navbar__spacer {
   height: var(--navbar-height);
@@ -24,7 +30,7 @@
 }
 
 .navbar__logo {
-  margin: 2rem;
+  margin-right: 2rem;
 }
 
 .navbar__anchor {

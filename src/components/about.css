@@ -1,0 +1,16 @@
+.about__greating {
+    margin: 0;
+    padding-top: 2rem;
+    font-size: 4rem;
+    transition: color 250ms
+}
+
+.about__text {
+    margin: 0;
+    font-size: 3rem;
+    transition: color 250ms;
+    line-height: 3em;
+}
+
+.about {
+}

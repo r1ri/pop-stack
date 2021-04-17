@@ -1,4 +1,4 @@
-import { Route, NavLink, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import React from 'react';
 import ContactMe from "./components/contactMe";
 import Navbar from "./components/navBar";
@@ -11,6 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
+      <div className="content__container">
       <Switch>
         <Route path="/contactme" component={ContactMe} />
         <Route path="/portfolio" component={Portfolio} />
@@ -19,6 +20,7 @@ function App() {
         <Redirect exact from="/" to="/home" />
         <Redirect  from="/" to="/notfound" />
       </Switch>
+      </div>
       <PageFooter />
     </React.Fragment>
   );

@@ -92,3 +92,10 @@ code {
 .glow__text--secondary {
   text-shadow: 0 0 10px var(--secondary-color--faded);
 }
+
+.content__container {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
